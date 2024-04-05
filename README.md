@@ -7,7 +7,7 @@ Finds and extracts lost footage you didn't manage to save during a dive or sessi
 * run `pip install -r requirements.txt`
 
 ## Usage
-Simply type `python ContentWarningLostFootageFinder.py` into a terminal aimed at the project directory, and the program will try to extract any lost footage.
+Simply type `python ContentWarningLostFootageFinder.py` into a terminal aimed at the project directory, and the program will try to extract any lost footage. Footage will be extracted to the current directory named FoundFootage**N**.webm, where N is a incrementing value.
 
 Keep in mind, Content Warning wipes all previous temporary recordings upon startup, so this only works until you start the game again.
 
